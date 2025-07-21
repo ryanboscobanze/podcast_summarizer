@@ -19,13 +19,13 @@ Automatically transcribe, summarize, and visualize podcast/audio content using O
 ## 📂 Folder Structure
 
 podcast_summarizer/
-├── podcast_summarizer.ipynb # 💻 Main Colab notebook
-├── sample_audio/ # 🎧 Short example clips
+├── podcast_summarizer.ipynb # Main Colab notebook 📓
+├── sample_audio/ # Short example clips 🎧
 │ └── clip.mp3
-├── outputs/ # 📝 Sample summaries & transcripts
+├── outputs/ # Sample summaries & transcripts 📝
 │ └── summary_clip.txt
-├── requirements.txt # 📦 Python dependencies
-└── README.md # 📘 This file
+├── requirements.txt # Python dependencies 📦
+└── README.md # This file 📘
 ---
 
 ## 🛠️ Installation
@@ -42,6 +42,7 @@ apt-get update && apt-get install -y ffmpeg espeak
 ```
 You’ll be prompted to enter your OpenAI API key securely at runtime.
 
+---
 🖥️ Run Locally
 ```bash
 git clone https://github.com/YOUR_USERNAME/podcast_summarizer.git
@@ -53,13 +54,15 @@ System-level packages also need to be installed locally:
 ```bash
 sudo apt install ffmpeg espeak
 ```
-
+---
 🔐 API Key Management
 ```bash
 import os
 from getpass import getpass
 os.environ["OPENAI_API_KEY"] = getpass("🔑 Enter your OpenAI API key:")
 ```
+
+---
 📊 Sample Output
 Transcript:
 “Today on the All-In podcast, we discuss the future of AI regulation…”
@@ -71,10 +74,10 @@ Summary:
 
 Visual:
 Generated image reflecting the theme of the episode (optional)
-
+---
 📜 License
 MIT License – see LICENSE
-
+---
 🤝 Contributions
 Pull requests, feature ideas, and issues are welcome. Let’s make this even better together.
 
