@@ -16,16 +16,16 @@ Automatically transcribe, summarize, and visualize podcast/audio content using O
 ---
 
 ---
-## 📂 Folder Structure
-
+```
 podcast_summarizer/
-├── podcast_summarizer.ipynb # Main Colab notebook 📓
-├── sample_audio/ # Short example clips 🎧
+├── podcast_summarizer.ipynb # Main Colab notebook
+├── sample_audio/ # Short example clips
 │ └── clip.mp3
-├── outputs/ # Sample summaries & transcripts 📝
+├── outputs/ # Sample summaries & transcripts
 │ └── summary_clip.txt
-├── requirements.txt # Python dependencies 📦
-└── README.md # This file 📘
+├── requirements.txt # Python dependencies
+└── README.md # This file
+```
 ---
 
 ## 🛠️ Installation
