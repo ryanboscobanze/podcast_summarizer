@@ -15,6 +15,7 @@ Automatically transcribe, summarize, and visualize podcast/audio content using O
 
 ---
 
+---
 ## 📂 Folder Structure
 
 podcast_summarizer/
