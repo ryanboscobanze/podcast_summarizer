@@ -38,7 +38,42 @@ Once the notebook opens, run the **first cell** to install all required librarie
 Colab will also install:
 ```bash
 apt-get update && apt-get install -y ffmpeg espeak
+```
+You’ll be prompted to enter your OpenAI API key securely at runtime.
 
+🖥️ Run Locally
+```bash
+git clone https://github.com/YOUR_USERNAME/podcast_summarizer.git
+cd podcast_summarizer
+pip install -r requirements.txt
+```
 
+System-level packages also need to be installed locally:
+```bash
+sudo apt install ffmpeg espeak
+```
 
+🔐 API Key Management
+```bash
+import os
+from getpass import getpass
+os.environ["OPENAI_API_KEY"] = getpass("🔑 Enter your OpenAI API key:")
+```
+📊 Sample Output
+Transcript:
+“Today on the All-In podcast, we discuss the future of AI regulation…”
+
+Summary:
+🔹 OpenAI plans new safety board
+🔹 Government pressure on foundation models
+🔹 Investors bullish on real-time inference
+
+Visual:
+Generated image reflecting the theme of the episode (optional)
+
+📜 License
+MIT License – see LICENSE
+
+🤝 Contributions
+Pull requests, feature ideas, and issues are welcome. Let’s make this even better together.
 
