@@ -7,7 +7,7 @@ Automatically transcribe, summarize, and visualize podcast/audio content using O
 ## 🚀 Features
 
 - 🧠 **Transcription**: High-quality speech-to-text using Whisper
-- ✍️ **Summarization**: Bullet points, TL;DR, and action items via GPT
+- ✍️ **Summarization**: Bullet points, TL;DR, and action items via Facebook’s BART model for text summarization and refined with mistral7b via openrouter/ free llm/ limited rates/ finalized narration with gemini flash 
 - 🎥 **YouTube/Podcast Support**: Download audio using `yt-dlp`
 - 🖼️ **Visual Generation**: Generate images using `diffusers`
 - 🔈 **Text-to-Speech**: Optional voice-based outputs
@@ -36,33 +36,8 @@ podcast_summarizer/
 
 Once the notebook opens, run the **first cell** to install all required libraries.
 
-Colab will also install:
-```bash
-apt-get update && apt-get install -y ffmpeg espeak
-```
-You’ll be prompted to enter your OpenAI API key securely at runtime.
 
----
-🖥️ Run Locally
-```bash
-git clone https://github.com/YOUR_USERNAME/podcast_summarizer.git
-cd podcast_summarizer
-pip install -r requirements.txt
-```
 
-System-level packages also need to be installed locally:
-```bash
-sudo apt install ffmpeg espeak
-```
----
-🔐 API Key Management
-```bash
-import os
-from getpass import getpass
-os.environ["OPENAI_API_KEY"] = getpass("🔑 Enter your OpenAI API key:")
-```
-
----
 📊 Sample Output
 Transcript:
 “Today on the All-In podcast, we discuss the future of AI regulation…”
