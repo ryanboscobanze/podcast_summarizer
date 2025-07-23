@@ -32,27 +32,23 @@ podcast_summarizer/
 
 ---
 
-#### 🧠 Notebook 1: Whisper Transcription + YouTube Downloader
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/drive/18eZ3_AztekDrk_M8yov2JFZtQjHPul2J)
+#### 🧠 Notebook 1: Whisper Transcription + Facebook Bart Summarization segments + YouTube Downloader  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18eZ3_AztekDrk_M8yov2JFZtQjHPul2J)
 
 ---
 
-#### 🎬 Notebook 2: Mistral Summary + Diffusion Video Generator
+#### 🎬 Notebook 2: Mistral Summary + Gemini Flash Narration + Diffusion Video Generator  + Moviepy
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Cz8mclf5B1ZcfXkkSQAgAyBKp3M0hb0k)
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://colab.research.google.com/drive/1Cz8mclf5B1ZcfXkkSQAgAyBKp3M0hb0k)
+---
 
-
-📊 Sample Output
-Transcript:
+📝 **Sample Output Transcript:**  
 “Today on the All-In podcast, we discuss the future of AI regulation…”
 
-Summary:
-🔹 OpenAI plans new safety board
-🔹 Government pressure on foundation models
-🔹 Investors bullish on real-time inference
+**Summary:**
+- 🔹 OpenAI plans new safety board  
+- 🔹 Government pressure on foundation models  
+- 🔹 Investors bullish on real-time inference
 
 Visual:
 Generated image reflecting the theme of the episode (optional)
