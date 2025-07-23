@@ -28,14 +28,21 @@ podcast_summarizer/
 ```
 ---
 
-## 🛠️ Installation
+### 🔄 Run in Google Colab (Recommended)
 
-### 🔄 Run in Google Colab (**recommended**)
+---
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/podcast-summarizer/blob/main/podcast_summarizer.ipynb)
+#### 🧠 Notebook 1: Whisper Transcription + YouTube Downloader
 
-Once the notebook opens, run the **first cell** to install all required libraries.
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/drive/18eZ3_AztekDrk_M8yov2JFZtQjHPul2J)
 
+---
+
+#### 🎬 Notebook 2: Mistral Summary + Diffusion Video Generator
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]
+(https://colab.research.google.com/drive/1Cz8mclf5B1ZcfXkkSQAgAyBKp3M0hb0k)
 
 
 📊 Sample Output
