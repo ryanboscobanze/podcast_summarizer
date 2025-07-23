@@ -32,12 +32,12 @@ podcast_summarizer/
 
 ---
 
-#### 🧠 Notebook 1: Whisper Transcription + Facebook Bart Summarization segments + YouTube Downloader  
+#### 🧠 final_podcast_summarizer_1.ipynb : Whisper Transcription + Facebook Bart Summarization segments + YouTube Downloader  
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/18eZ3_AztekDrk_M8yov2JFZtQjHPul2J)
 
 ---
 
-#### 🎬 Notebook 2: Mistral Summary + Gemini Flash Narration + Diffusion Video Generator  + Moviepy
+#### 🎬 final_podcast_summarizer_2.ipynb : Mistral Summary + Gemini Flash Narration + Diffusion Video Generator  + Moviepy
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Cz8mclf5B1ZcfXkkSQAgAyBKp3M0hb0k)
 
 ---
