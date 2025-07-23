@@ -15,17 +15,7 @@ Automatically transcribe, summarize, and visualize podcast/audio content using O
 
 ---
 
----
-```
-podcast_summarizer/
-├── podcast_summarizer.ipynb # Main Colab notebook
-├── sample_audio/ # Short example clips
-│ └── clip.mp3
-├── outputs/ # Sample summaries & transcripts
-│ └── summary_clip.txt
-├── requirements.txt # Python dependencies
-└── README.md # This file
-```
+
 ---
 
 ### 🔄 Run in Google Colab (Recommended)
@@ -41,17 +31,6 @@ podcast_summarizer/
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Cz8mclf5B1ZcfXkkSQAgAyBKp3M0hb0k)
 
 ---
-
-📝 **Sample Output Transcript:**  
-“Today on the All-In podcast, we discuss the future of AI regulation…”
-
-**Summary:**
-- 🔹 OpenAI plans new safety board  
-- 🔹 Government pressure on foundation models  
-- 🔹 Investors bullish on real-time inference
-
-Visual:
-Generated image reflecting the theme of the episode (optional)
 ---
 📜 License
 MIT License – see LICENSE
