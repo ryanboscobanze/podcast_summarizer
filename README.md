@@ -38,3 +38,9 @@ MIT License – see LICENSE
 🤝 Contributions
 Pull requests, feature ideas, and issues are welcome. Let’s make this even better together.
 
+
+☕ Support My Work
+You can Buy Me a Coffee to support more free AI tutorials and tools. 
+https://buymeacoffee.com/algoforgeau
+
+
